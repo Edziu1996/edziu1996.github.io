@@ -222,6 +222,47 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
+#main_content .btn {
+    display: inline-block;
+  margin-left: 15px;
+  margin-right: -20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.btn-download .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 1px 8px 0 0;
+  float: left;
+  
+  opacity: 0.6;
+  background: url("../images/download.png") 0 0 no-repeat;
+}
+
+.btn-javadocs .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 1px 8px 0 0;
+  float: left;
+  
+  opacity: 0.6;
+  background: url("../images/javadocs.png") 0 0 no-repeat;
+}
+
+.btn-wiki .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 1px 8px 0 0;
+  float: left;
+  
+  opacity: 0.6;
+  background: url("../images/wiki.png") 0 0 no-repeat;
+}
+
 /* Links
    a, a:hover, a:visited
 */
@@ -242,37 +283,6 @@ a {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 28px;
-}
-
-
-#main_content .btn {
-    display: inline-block;
-  margin-left: 15px;
-  margin-right: -20px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-
-#main_content .btn-download .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin: 1px 8px 0 0;
-  float: left;
-  
-  opacity: 0.6;
-  background: url("../images/download.png") 0 0 no-repeat;
-}
-
-#main_content .btn-javadocs .icon {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin: 1px 8px 0 0;
-  float: left;
-  
-  opacity: 0.6;
-  background: url("../images/javadocs.png") 0 0 no-repeat;
 }
 
 /* Clearfix */
